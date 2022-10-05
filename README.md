@@ -4,11 +4,9 @@
 
 <p>Project developed to authenticate users when sign in</p>
 
-## 🚀 Technology Utilizated
-
-<p>The following tools were used in the building of the project:</p>
-
-- PHP
+<h4 align="center"> 
+	🚧 project under construction...  🚧
+</h4>
 
 ### Features
 
