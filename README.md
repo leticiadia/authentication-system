@@ -1,10 +1,8 @@
 # Authentication System
 
-## 💻 Description
+### About project
 
-<p>Project developed to authenticate users when sign in</p>
-
-<h4 align="center"> 
+<h4 align="left"> 
 	🚧 project under construction...  🚧
 </h4>
 
