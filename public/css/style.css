@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+
+  background: linear-gradient(to right bottom, #42cafd, #a5b4fc);
+}
+
+main {
+  padding: 1.6rem;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .login {
+  width: 100%;
+  padding: 4rem 2.4rem;
+
+  border: 0.4rem solid rgba(72, 86, 150, 0.4);
+  border-radius: 0.4rem;
+}
+
+main .login h2 {
+  color: rgba(72, 86, 150, 0.6);
+  font-weight: 500;
+  text-align: center;
+
+  padding-bottom: 1.6rem;
+}
+
+.error-message {
+  color: rgba(244, 63, 94, 0.6);
+  font-size: 1.6rem;
+  text-align: center;
+
+  margin-top: 1.6rem;
+}
+
+main .login form .input-username,
+main .login form .input-password {
+  padding-bottom: 1.6rem;
+}
+
+main .login form .input-username input,
+main .login form .input-password input {
+  outline: none;
+  border: none;
+  border-radius: 0.4rem;
+
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+
+  padding: 1.2rem 1.6rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.button button {
+  border: none;
+  border-radius: 0.4rem;
+
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+
+  padding: 1.2rem 15rem;
+  background-color: rgba(72, 86, 150, 0.6);
+
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: rgba(72, 86, 150, 0.9);
+}
