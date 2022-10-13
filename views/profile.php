@@ -2,7 +2,7 @@
 <div class="profile">
     <div class="profile-content">
         <div class="info-text">
-            <p>Welcome to the PHP Login System member page</p>
+            <p>Welcome to the PHP Login System profile page</p>
         </div>
 
         <div class="button-logout">
