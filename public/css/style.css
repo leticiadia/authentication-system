@@ -56,8 +56,9 @@ main .login h2 {
   color: rgba(244, 63, 94, 0.6);
   font-size: 1.6rem;
   text-align: center;
+  font-weight: 600;
 
-  margin-top: 1.6rem;
+  margin: 1.6rem 0;
 }
 
 main .login form .input-username,
@@ -95,5 +96,33 @@ main .login form .input-password input {
 }
 
 .button button:hover {
+  background-color: rgba(72, 86, 150, 0.9);
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.info-text p {
+  font-size: 2.4rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+}
+
+.button-logout a {
+  color: #fff;
+  background-color: rgba(72, 86, 150, 0.6);
+  text-decoration: none;
+
+  border-radius: 0.4rem;
+
+  margin-top: 3.2rem;
+  padding: 1.2rem 5.6rem;
+}
+
+.button-logout a:hover {
   background-color: rgba(72, 86, 150, 0.9);
 }
