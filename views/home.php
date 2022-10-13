@@ -3,7 +3,7 @@
 <div class="login">
     <h2>Have an account?</h2>
 
-    <form action="{{ login }}" method="post">
+    <form action="/login.php" method="post">
         <?php if (isset($_GET['message'])) : ?>
             <p class="error-message"><?= $_GET['message']; ?></p>
         <?php endif; ?>
