@@ -2,7 +2,7 @@
 
 namespace Project\Authentication\Models;
 
-require_once 'autoload.php';
+require_once __DIR__ . '/../../autoload.php';
 
 class User
 {
