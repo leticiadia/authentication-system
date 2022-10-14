@@ -1,9 +1,9 @@
 <?php
 
-use Project\Authentication\Services\UserService;
+use Project\Authentication\Controllers\UserController;
 
 require_once 'autoload.php';
 
-$user = new UserService('authentication_system', '127.0.0.1', 'root', 'root');
+$user = new UserController();
 
-$user->store('admin', '123456');
+$user->store('admin20', '123456');
