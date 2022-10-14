@@ -9,18 +9,16 @@ use Project\Authentication\Models\User;
 
 require_once __DIR__ . '/../../autoload.php';
 
+include __DIR__ . '/../../config/database.php';
+
 class UserController extends User
 {
 
     private  $databaseHost;
 
-    public function __construct($database, $host, $username, $password)
+    public function __construct()
     {
-        try {
-            $this->databaseHost = new PDO(sprintf('mysql:host=%s;dbname=%s', $host, $database), $username, $password);
-        } catch (Throwable $error) {
-            $error->getMessage();
-        }
+        $this->databaseHost = connection();
     }
 
     public function store($username, $password)

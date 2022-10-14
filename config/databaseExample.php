@@ -8,8 +8,7 @@ function connection()
     $database = ''; // Your database name
 
     try {
-        $connection = new mysqli($databaseHost, $databaseUser, $databasePassword, $database);
-
+        $connection = new PDO(sprintf('mysql:host=%s;dbname=%s', $databaseHost, $database), $databaseUser, $databasePassword);
         return $connection;
     } catch (Throwable $error) {
         echo 'Connection failed: ' . $error->getMessage();

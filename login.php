@@ -6,7 +6,7 @@ use Project\Authentication\Controllers\UserController;
 
 require_once __DIR__ . '/autoload.php';
 
-$user = new UserController('authentication_system', '127.0.0.1', 'root', 'root');
+$user = new UserController();
 
 $username = $_POST['username'];
 $password = $_POST['password'];
